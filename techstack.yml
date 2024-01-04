@@ -1,7 +1,8 @@
 repo_name: josedulanto/factory_bot
 report_id: f6dc899b05f4144f547b752c34deb7a5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:54:26+00:00'
+timestamp: '2024-01-04T15:01:40+00:00'
 requested_by: rgould
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/josedulanto/factory_bot
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/factory_bot.gemspec
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2018-08-15 14:39:30.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/josedulanto/factory_bot
   detection_source: Repo Metadata
 - name: SQLite
   description: A software library that implements a self-contained, serverless, zero-configuration,
@@ -47,6 +51,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Joshua Clayton
   last_updated_on: 2011-09-02 14:48:39.000000000 Z
@@ -60,7 +65,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2544/jasVAxyJ.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: cucumber.yml
   last_updated_by: Joe Ferris
   last_updated_on: 2009-09-15 20:56:20.000000000 Z
@@ -72,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/josedulanto/factory_bot
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -81,6 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/.github/workflows/build.yml
   detection_source: ".github/workflows/build.yml"
   last_updated_by: Elia Schito
   last_updated_on: 2021-04-16 13:26:45.000000000 Z
@@ -94,7 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Avielle
   last_updated_on: 2017-10-20 19:20:28.000000000 Z
@@ -106,6 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/factory_bot.gemspec
   detection_source: factory_bot.gemspec
   last_updated_by: Avielle
   last_updated_on: 2017-10-20 19:20:28.000000000 Z
@@ -117,6 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/factory_bot.gemspec
   detection_source: factory_bot.gemspec
   last_updated_by: Avielle
   last_updated_on: 2017-10-20 19:20:28.000000000 Z
@@ -130,7 +139,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2020-04-24 21:11:12.000000000 Z
@@ -162,6 +171,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19547/default_de9db5416684dc69048353b710ca941dc9bac9c3.png
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Matijs van Zuijlen
   last_updated_on: 2019-10-02 22:55:51.000000000 Z
@@ -176,7 +186,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18817/default_b17f14dbef6c1275120b34d9ec2eff5942499bd5.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2020-04-24 21:11:12.000000000 Z
@@ -210,7 +220,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18877/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2019-01-05 01:59:12.000000000 Z
@@ -224,7 +234,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18871/default_b77d2f996e744a3b8800957401b77132b07dbd38.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2018-08-15 14:39:30.000000000 Z
@@ -238,7 +248,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2019-01-05 01:59:12.000000000 Z
@@ -252,7 +262,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18880/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Daniel Colson
   last_updated_on: 2019-01-05 01:59:12.000000000 Z
@@ -267,7 +277,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Avielle
   last_updated_on: 2017-10-20 19:20:28.000000000 Z
@@ -282,7 +292,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Matijs van Zuijlen
   last_updated_on: 2019-10-02 22:55:51.000000000 Z
@@ -296,7 +306,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/factory_bot/blob/main/Gemfile.lock
   detection_source: factory_bot.gemspec
   last_updated_by: Sweta Sanghavi
   last_updated_on: 2019-02-15 22:38:33.000000000 Z
