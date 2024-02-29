@@ -2,7 +2,7 @@ repo_name: josedulanto/factory_bot
 report_id: f6dc899b05f4144f547b752c34deb7a5
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:19:27+00:00'
+timestamp: '2024-02-29T18:09:55+00:00'
 requested_by: rgould
 provider: github
 branch: main
@@ -197,18 +197,18 @@ tools:
     detected_date: Mar 16
     severity: moderate
     first_patched: 6.1.7.3
-  - name: ReDoS based DoS vulnerability in Active Support's underscore
-    cve_id: CVE-2023-22796
-    cve_url: https://github.com/advisories/GHSA-j6gc-792m-qgm2
-    detected_date: Jan 19
-    severity: low
-    first_patched: 6.1.7.1
   - name: Active Support Possibly Discloses Locally Encrypted Files
     cve_id: CVE-2023-38037
     cve_url: https://github.com/advisories/GHSA-cr5q-6q9f-rq6q
     detected_date: Aug 24
     severity: low
     first_patched: 6.1.7.5
+  - name: ReDoS based DoS vulnerability in Active Support's underscore
+    cve_id: CVE-2023-22796
+    cve_url: https://github.com/advisories/GHSA-j6gc-792m-qgm2
+    detected_date: Jan 19
+    severity: low
+    first_patched: 6.1.7.1
 - name: appraisal
   description: Appraisal integrates with bundler and rake to test your library against
     different versions of dependencies in repeatable scenarios called "appraisals."
@@ -310,3 +310,11 @@ tools:
   detection_source: factory_bot.gemspec
   last_updated_by: Sweta Sanghavi
   last_updated_on: 2019-02-15 22:38:33.000000000 Z
+  vulnerabilities:
+  - name: YARD's default template vulnerable to Cross-site Scripting in generated
+      frames.html
+    cve_id: CVE-2024-27285
+    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
+    detected_date: Feb 29
+    severity: moderate
+    first_patched: 0.9.35
